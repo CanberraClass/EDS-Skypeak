@@ -388,15 +388,26 @@ EDSData.SKPK = {
                 text: ""
         }
     },
-    95: {
-        front: { // Reserved code for MAN A95 Logo
+    22: {
+        front: {
                 renderType: "TowerSpecialEDS",
                 serviceNumber: "",
-                top: "ND323F (A95)",
+                top: "NL323F (A22)",
                 topFont: "Mobitec-9:6",
-                bottom: "Mobitec - 040525",
+                bottom: "Mobitec - 281125",
                 bottomFont: "Mobitec-Tower6:4",
-                text: "EDS VER (MAN A95)"
+                text: "EDS VER (MAN A22)"
+        }
+    },
+    24: {
+        front: {
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "",
+                top: "NG363F (A22)",
+                topFont: "Mobitec-9:6",
+                bottom: "Mobitec - 281125",
+                bottomFont: "Mobitec-Tower6:4",
+                text: "EDS VER (MAN A24)"
         }
     },
     11: {
@@ -453,18 +464,6 @@ EDSData.SKPK = {
                     text: "1"
                 },
             ]
-        }
-    },
-    500: {
-        front: { // Reserved code for Enviro 500 (New ADL Logo)
-                renderType: "TowerSpecialEDS",
-                serviceNumber: "",
-                top: "ENVIRO 500",
-                topFont: "Mobitec-Enviro500 Wording",
-                bottom: "Mobitec - 040525",
-                bottomFont: "Mobitec-Tower6:4",
-                image: "NEW ADL LOGO",
-                text: "EDS VER (ADLE500MMC)"
         }
     },
     1001: {
