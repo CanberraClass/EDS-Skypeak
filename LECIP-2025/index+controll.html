@@ -1,0 +1,81 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src='../matrix.js'></script>
+    <script src='../fonts.js'></script>
+    <script src='../eds-renderer.js'></script>
+    <script src='../matrix-primitives.js'></script>
+
+    <script src='js/controller.js'></script>
+    <script src='eds.js'></script>
+    <script src='data/SMRT.js'></script>
+    <script src='data/SBST.js'></script>
+    <script src='data/TTSG.js'></script>
+    <script src='data/GASG.js'></script>
+
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/controller.css'>
+    <link rel='stylesheet' href='css/eds.css'>
+
+
+    <style id='led-style'>
+    </style>
+
+
+    <meta name='viewport' content='user-scalable=no' />
+</head>
+
+<body>
+    <div id='input'>
+        <label for='operator'>Operator</label>
+        <select id='operator'>
+            <option>SMRT</option>
+            <option>SBST</option>
+            <option>TTSG</option>
+        </select>
+        <label for='code'>Code</label>
+        <input id='code' />
+        <label for='direction'>Direction</label>
+        <input id='direction' />
+    </div>
+    <div id='controller'>
+        <div id='screen'>
+        <div id='output-preview'>
+           <canvas id='preview-canvas' width='576' height='64'></canvas>
+           </div>
+	</div>
+        <div id='bottom-keyarea'>
+            <img src='res/lecip.svg' />
+            <div id='keypad-num'>
+                <div id='keypad-1' class='button'><span>1</span></div>
+                <div id='keypad-2' class='button'><span>2</span></div>
+                <div id='keypad-3' class='button'><span>3</span></div>
+                <div id='keypad-4' class='button'><span>4</span></div>
+                <div id='keypad-5' class='button'><span>5</span></div>
+                <div id='keypad-6' class='button'><span>6</span></div>
+                <div id='keypad-7' class='button'><span>7</span></div>
+                <div id='keypad-8' class='button'><span>8</span></div>
+                <div id='keypad-9' class='button'><span>9</span></div>
+                <div id='keypad-0' class='button'><span>0</span></div>
+            </div>
+            <div id='keypad-func'>
+                <div id='keypad-back' class='button'><img src='res/return-arrow.svg' /></div>
+                <div id='keypad-dir' class='button'><span>⇄</span></div>
+                <div id='keypad-bs' class='button'><span>BS</span></div>
+                <div id='keypad-left' class='button'><span class='arrow-left'></span></div>
+                <div id='keypad-right' class='button'><span class='arrow-right'></span></div>
+                <div id='keypad-set' class='button button-orange'><span>SET</span></div>
+            </div>
+        </div>
+    </div>
+    <div id='front-eds-container'>
+        <div id='front-eds'>
+        </div>
+    </div>
+
+    <div id='internal-pids-container'>
+        <div id='internal-pids'>
+        </div>
+    </div>
+</body>
+</html>

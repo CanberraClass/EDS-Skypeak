@@ -1,0 +1,205 @@
+    66: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "66",
+                destination: {
+                    text: "JURONG EAST",
+                    font: "LECIP-Tower16"
+                },
+                scrolls: [],
+                scrollFont: ""
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "66",
+                destination: "UPPER BT TIMAH ROAD",
+                secondDestination: {
+                    name: "JURONG EAST INT",
+                    changeIndex: 22
+                },
+                scrolls: [
+                    "JURONG EAST INT",
+		    "BLK 131",
+		    "BLK 134",
+		    "S'PORE SCIENCE CTR",
+		    "AFT S'PORE SCIENCE CTR",
+		    "OPP BLK 114",
+		    "OPP BLK 227",
+		    "BLK 303",
+		    "AFT PIE",
+		    "BLK 168",
+		    "BLK 154A",
+		    "BLK 109",
+		    "OPP BT BATOK SWIM CLPX",
+		    "BT VIEW SEC SCH",
+		    "OPP BLK 291A/BLK 292 MSCP",
+		    "CH OF ST. MARY",
+		    "AUTOBACS/OPP PARK NATURA",
+		    "AFT BT BATOK EAST AVE 6",
+		    "THE HILLFORD",
+		    "AFT CHUN TIN RD",
+		    "OPP BLK 19",
+		    "OPP BEAUTY WORLD STN",
+		    "PEI HWA PRESEBY PRI SCH",
+		    "BEAUTY WORLD STN EXIT C", // change dest to d2
+		    "BLK 18",
+		    "SIGNATURE PK CONDO",
+		    "OPP THE HILLFORD",
+		    "BEF BT BATOK EAST AVE 6",
+		    "PARK NATURA",
+		    "BLK 288C",
+		    "BLK 291A/OPP BLK 292 MSCP",
+		    "OPP BT VIEW SEC SCH",
+		    "BT BATOK SWIM CLPX",
+		    "BLK 185",
+		    "BLK 183",
+		    "BLK 169",
+		    "BEF PIE",
+		    "BLK 253",
+		    "BLK 228",
+		    "BLK 114",
+		    "BLK 118/BEF S'PORE SCIENCE CTR",
+		    "OPP S'PORE SCIENCE CTR",
+		    "BLK 124",
+                    "JURONG EAST INT"
+                ]
+            }
+        }
+    },
+    "66W": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "66",
+                destination: {
+                    text: "UPP BT TIMAH RD",
+                    font: "LECIP-Tower16"
+                },
+                scrolls: [],
+                scrollFont: ""
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "66",
+                destination: "UPPER BT TIMAH ROAD",
+                secondDestination: {
+                    name: "JURONG EAST INT",
+                    changeIndex: 22
+                },
+                scrolls: [
+		    "JURONG EAST INT",
+		    "BLK 131",
+		    "BLK 134",
+		    "S'PORE SCIENCE CTR",
+		    "AFT S'PORE SCIENCE CTR",
+		    "OPP BLK 114",
+		    "OPP BLK 227",
+		    "BLK 303",
+		    "AFT PIE",
+		    "BLK 168",
+		    "BLK 154A",
+		    "BLK 109",
+		    "OPP BT BATOK SWIM CLPX",
+		    "BT VIEW SEC SCH",
+		    "OPP BLK 291A/BLK 292 MSCP", 
+		    "CH OF ST. MARY",
+		    "AUTOBACS",
+		    "AFT BT BATOK EAST AVE 6",
+		    "THE HILLFORD",
+		    "AFT CHUN TIN RD",
+		    "OPP BLK 19",
+		    "OPP BEAUTY WORLD STN",
+		    "PEI HWA PRESEBY PRI SCH",
+		    "BEAUTY WORLD STN EXIT C",
+		    "BLK 18",
+		    "SIGNATURE PK CONDO",
+		    "OPP THE HILLFORD",
+		    "BEF BT BATOK EAST AVE 6",
+		    "PARK NATURA",
+		    "BLK 288C",
+		    "BLK 291A/OPP BLK 292 MSCP",
+		    "OPP BT VIEW SEC SCH",
+		    "BT BATOK SWIM CLPX",
+		    "BLK 185",
+		    "BLK 183",
+		    "BLK 169",
+		    "BEF PIE",
+		    "BLK 253",
+		    "BLK 228",
+		    "BLK 114",
+		    "BLK 118/BEF S'PORE SCIENCE CTR",
+		    "OPP S'PORE SCIENCE CTR",
+		    "BLK 124",
+                    "JURONG EAST INT"
+		]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "66",
+                destination: {
+                    text: "JURONG EAST",
+                    font: "LECIP-Tower16"
+                },
+                scrolls: [],
+                scrollFont: ""
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "66",
+                destination: "UPPER BT TIMAH ROAD",
+                secondDestination: {
+                    name: "JURONG EAST INT",
+                    changeIndex: 22
+                },
+                scrolls: [
+		    "JURONG EAST INT",
+		    "BLK 131",
+		    "BLK 134",
+		    "S'PORE SCIENCE CTR",
+		    "AFT S'PORE SCIENCE CTR",
+		    "OPP BLK 114",
+		    "OPP BLK 227",
+		    "BLK 303",
+		    "AFT PIE",
+		    "BLK 168",
+		    "BLK 154A",
+		    "BLK 109",
+		    "OPP BT BATOK SWIM CLPX",
+		    "BT VIEW SEC SCH",
+		    "OPP BLK 291A/BLK 292 MSCP", 
+		    "CH OF ST. MARY",
+		    "AUTOBACS",
+		    "AFT BT BATOK EAST AVE 6",
+		    "THE HILLFORD",
+		    "AFT CHUN TIN RD",
+		    "OPP BLK 19",
+		    "OPP BEAUTY WORLD STN",
+		    "PEI HWA PRESEBY PRI SCH",
+		    "BEAUTY WORLD STN EXIT C",
+		    "BLK 18",
+		    "SIGNATURE PK CONDO",
+		    "OPP THE HILLFORD",
+		    "BEF BT BATOK EAST AVE 6",
+		    "PARK NATURA",
+		    "BLK 288C",
+		    "BLK 291A/OPP BLK 292 MSCP",
+		    "OPP BT VIEW SEC SCH",
+		    "BT BATOK SWIM CLPX",
+		    "BLK 185",
+		    "BLK 183",
+		    "BLK 169",
+		    "BEF PIE",
+		    "BLK 253",
+		    "BLK 228",
+		    "BLK 114",
+		    "BLK 118/BEF S'PORE SCIENCE CTR",
+		    "OPP S'PORE SCIENCE CTR",
+		    "BLK 124",
+                    "JURONG EAST INT"
+                ]
+            }
+        }
+    }, 

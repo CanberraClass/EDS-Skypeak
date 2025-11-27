@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src='../matrix.js'></script>
+    <script src='../fonts.js'></script>
+    <script src='../eds-renderer.js'></script>
+    <script src='../matrix-primitives.js'></script>
+
+    <script src='eds.js'></script>
+    <script src='data/SMRT.js'></script>
+    <script src='data/SBST.js'></script>
+    <script src='data/TTSG.js'></script>
+    <script src='data/GASG.js'></script>
+    <script src='data/COMO.js'></script>
+    <script src='data/SKPK.js'></script>
+
+    <link rel='stylesheet' href='css/eds.css'>
+    <link rel='stylesheet' href='css/style.css'>
+
+    <!-- <script src='js/controller.js'></script> -->
+    <style id='led-style'>
+    </style>
+
+
+    <meta name='viewport' content='user-scalable=no' />
+</head>
+
+<body>
+    <div id='input'>
+        <label for='operator'>Operator</label>
+        <select id='operator'>
+            <option>SMRT</option>
+            <option>SBST</option>
+            <option>TTSG</option>
+            <option>SKPK</option>
+            <option>COMO</option>
+        </select>
+        <label for='code'>Code</label>
+        <input id='code' />
+        <label for='direction'>Direction</label>
+        <input id='direction' />
+    </div>
+    <div id='front-eds-container'>
+        <div id='front-eds'>
+        </div>
+    </div>
+
+    <div id='internal-pids-container'>
+        <div id='internal-pids'>
+        </div>
+    </div>
+</body>
+</html>
