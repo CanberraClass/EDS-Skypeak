@@ -388,7 +388,7 @@ EDSData.SKPK = {
                 text: ""
         }
     },
-    22: {
+    22: { // MAN A22 Version
         front: {
                 renderType: "TowerSpecialEDS",
                 serviceNumber: "",
@@ -399,7 +399,7 @@ EDSData.SKPK = {
                 text: "EDS VER (MAN A22)"
         }
     },
-    24: {
+    24: { // MAN A24 Version
         front: {
                 renderType: "TowerSpecialEDS",
                 serviceNumber: "",
