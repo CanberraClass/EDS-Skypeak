@@ -537,10 +537,10 @@ EDSData.TTSG = {
             },
             pids: {
                 renderType: "pids",
-                serviceNumber: "98",
-                destination: "JURONG EAST INT",
+                serviceNumber: "106",
+                destination: "BUKIT BATOK INT",
                 scrolls: [
-                    "JURONG EAST INT"
+                    ""
                 ]
             }
         }
